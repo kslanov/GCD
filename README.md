@@ -8,24 +8,28 @@ output: pdf_document
 
 
 
-## This is the README file for course project of the Getting and Cleaning Data course on Coursera.
+# This is the README file for course project of the Getting and Cleaning Data course on Coursera.
 
-The prject includes the R script (run_analysis.R), for the following data manipulation: \newline
+The project includes the R script (run_analysis.R), for the following data manipulation: 
 
------------------------------------FILE PREPARATION------------------------------------ \newline
-Establishing working directory for the initial data set (unzipped files) \newline
+>FILE PREPARATION
 
--------------------------------------READING DATA-------------------------------------- \newline
-Reading both the train and test datasets as data tables, reading features and activity labels \newline
+* Establishing working directory for the initial data set (unzipped files) 
 
------------------------------------TRANSFORMING DATA----------------------------------- \newline
-Extracting columns named 'mean'(-mean) and 'standard'(-std) and modifying column names to descriptive. (-mean to Mean, -std to Std, and remove symbols like -, (, )) \newline
+> READING DATA
 
-Merging train and test data set into x(measurements), y(activity) and subject. \newline
+* Reading both the train and test datasets as data tables, reading features and activity labels 
 
-Extracting data by selected columns(from step 1), and merging x, y(activity) and subject data. Also, replace y(activity) column to it's name by refering activity label (loaded step 3). \newline
+> TRANSFORMING DATA
 
-Generating a 'Tidy Dataset' that consists of the average (mean) of each variable for each subject and each activity. Writing the tidy dataset to tidy_dataset.txt file 
+* Extracting columns named 'mean'(-mean) and 'standard'(-std) and modifying column names to descriptive. (-mean to Mean, -std to Std, and remove non-char symbols like -, (, )) 
+
+*  Merging train and test data set into x(measurements), y(activity) and subject.
+
+
+* Extracting data by selected columns(from step 1), and merging x, y(activity) and subject data. Also, replace y(activity) column to it's name by referring activity label (loaded step 3). \newline
+
+* Generating a 'Tidy Dataset' that consists of the average (mean) of each variable for each subject and each activity. Writing the tidy dataset to tidy_dataset.txt file 
 
 
 
